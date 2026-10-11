@@ -1,0 +1,27 @@
+baseURL = 'https://gitpxz.github.io/'
+locale = 'en-us'
+title = '毫末生木'
+theme = "PaperMod"
+
+[params]
+  description = "技术积累与思考"
+  author = "毫末生木"
+
+[params.homeInfoParams]
+  Title = "欢迎来到毫末生木"
+  Content = "这里记录技术学习与实践的积累。"
+
+[[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  name = "标签"
+  url = "/tags/"
+  weight = 20
+
+[[menu.main]]
+  name = "归档"
+  url = "/archives/"
+  weight = 30
