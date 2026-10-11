@@ -6,6 +6,7 @@ theme = "PaperMod"
 [params]
   description = "技术积累与思考"
   author = "毫末生木"
+  comments = true
 
 [params.homeInfoParams]
   Title = "欢迎来到毫末生木"
