@@ -13,16 +13,31 @@ theme = "PaperMod"
   Content = "这里记录技术学习与实践的积累。"
 
 [[menu.main]]
+  name = "算法"
+  url = "/algorithm/"
+  weight = 100
+  
+[[menu.main]]
+  name = "工具"
+  url = "/tools/"
+  weight = 200
+  
+[[menu.main]]
+  name = "应用"
+  url = "/applications/"
+  weight = 300
+  
+[[menu.main]]
   name = "文章"
   url = "/posts/"
-  weight = 10
+  weight = 400
 
 [[menu.main]]
   name = "标签"
   url = "/tags/"
-  weight = 20
+  weight = 500
 
 [[menu.main]]
   name = "归档"
   url = "/archives/"
-  weight = 30
+  weight = 600
