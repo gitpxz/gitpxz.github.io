@@ -7,14 +7,20 @@ theme = "PaperMod"
   description = "技术积累与思考"
   author = "毫末生木"
   comments = true
+  mainSections = ["applications"]
 
 [params.homeInfoParams]
   Title = "欢迎来到毫末生木"
-  Content = "这里记录技术学习与实践的积累。"
+  Content = """这里记录技术学习与实践的积累。
+- **[算法](/algorithms)**：哪些算法
+- **[工具](/tools)**：用什么工具
+- **[应用](/applications)**：具体怎么用
+- **[其他](/others)**：其他
+"""
 
 [[menu.main]]
   name = "算法"
-  url = "/algorithm/"
+  url = "/algorithms/"
   weight = 100
   
 [[menu.main]]
@@ -26,18 +32,12 @@ theme = "PaperMod"
   name = "应用"
   url = "/applications/"
   weight = 300
-  
+
+
 [[menu.main]]
-  name = "文章"
-  url = "/posts/"
+  name = "其他"
+  url = "/others/"
   weight = 400
-
-[[menu.main]]
-  name = "标签"
-  url = "/tags/"
-  weight = 500
-
-[[menu.main]]
-  name = "归档"
-  url = "/archives/"
-  weight = 600
+  
+  
+  
