@@ -12,9 +12,9 @@ theme = "PaperMod"
 [params.homeInfoParams]
   Title = "欢迎来到毫末生木"
   Content = """这里记录技术学习与实践的积累。
-- **[算法](/algorithms)**：哪些算法
-- **[工具](/tools)**：用什么工具
-- **[应用](/applications)**：具体怎么用
+- **[算法](/algorithms)**：介绍机器学习的核心模型与数学原理。
+- **[工具](/tools)**：梳理实现算法所需的编程语言、核心框架与开发环境。
+- **[应用](/applications)**：展示算法在真实业务场景中的落地案例。
 - **[其他](/others)**：其他
 """
 
